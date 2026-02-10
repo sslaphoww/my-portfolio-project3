@@ -2230,6 +2230,7 @@ input[type="checkbox"] {
 
 .crm-sidebar a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .logo {
@@ -3734,3 +3735,4 @@ input[type="checkbox"] {
     }
 
 }
+
