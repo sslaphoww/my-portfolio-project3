@@ -1982,7 +1982,7 @@ input[type="checkbox"] {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: var(--border-radius-xl);
     width: 40.5%;
-    margin-right: 0;s
+    margin-right: 0;
     padding: 20px;
 }
 
@@ -3732,4 +3732,5 @@ input[type="checkbox"] {
     .close-column {
         min-width: 200px;
     }
+
 }
