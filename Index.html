@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Relate</title>
+    <meta name="description" content="Relate - современная CRM система для B2B SaaS стартапов. Управление продажами, воронкой сделок и взаимоотношениями с клиентами. Поддержка Y Combinator.">
+    <meta name="keywords" content="CRM, B2B SaaS, управление продажами, customer relationship management, стартапы, Y Combinator">
+    <meta name="author" content="Relate CRM">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Relate - CRM для B2B SaaS стартапов">
+    <meta property="og:description" content="Современная CRM система для управления продажами и клиентами в B2B SaaS">
+    <meta property="og:url" content="https://relatecrm.com">
+    <meta property="og:site_name" content="Relate CRM">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Relate - CRM для B2B SaaS стартапов">
+    <meta name="twitter:description" content="Современная CRM система для управления продажами и клиентами">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Assets/Images/logo-small.png">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Relate CRM",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "150"
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_logo">
+                    <img src="Assets/Images/logo.png" alt="Relate CRM Logo">
+                </div>
+                
+                <nav class="nav" role="navigation" aria-label="Main navigation">
+                    <a class="nav_link" href="#product">Product</a>
+                    <a class="nav_link" href="#blog">Blog</a>
+                    <a class="nav_link" href="#changelog">Changelog</a>
+                </nav>
+                
+                <a class="nav_btn" href="#signup" aria-label="Get early access to Relate CRM">Get early access</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+            <div class="hero_inner">
+                <h2 class="hero_subtitle2">
+                    <img src="Assets/Images/logo2.png" class="hero_logo" alt="Y Combinator Logo">
+                    Backed by Y Combinator
+                </h2>
+                <h1 id="hero-title" class="hero_title1">Customer Relationship</h1>
+                <h2 class="hero_title2">in good hands</h2>
+                <p class="hero_subtitle">Relate is a better way to do sales and customer success for B2B SaaS startups</p>
+                <a class="hero_btn" href="#signup" aria-label="Get early access">Get early access</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pipeline Dashboard Section -->
+    <section class="pipeline-section" aria-labelledby="pipeline-title">
+        <div class="pipeline-wrapper">
+            <!-- Sidebar Navigation -->
+            <aside class="pipeline-sidebar" role="navigation" aria-label="Pipeline navigation">
+                <div class="sidebar-logo-wrapper">
+                    <img src="Assets/Images/logo.png" class="sidebar-logo" alt="Relate Logo">
+                </div>
+                
+                <nav class="sidebar-nav">
+                    <div class="sidebar-item">
+                        <span class="sidebar-icon" aria-hidden="true"></span>
+                        <span class="sidebar-text">Inbox</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <span class="sidebar-icon" aria-hidden="true"></span>
+                        <span class="sidebar-text">Organizations</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <span class="sidebar-icon" aria-hidden="true"></span>
+                        <span class="sidebar-text">People</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <span class="sidebar-icon" aria-hidden="true"></span>
+                        <span class="sidebar-text">Pipelines</span>
+                        <span class="sidebar-arrow">▼</span>
+                    </div>
+                    <div class="sidebar-subitem active">
+                        <span class="sidebar-subicon" aria-hidden="true"></span>
+                        <span class="sidebar-text">Pipeline</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <span class="sidebar-icon" aria-hidden="true"></span>
+                        <span class="sidebar-text">Views</span>
+                        <span class="sidebar-arrow">◀</span>
+                    </div>
+                </nav>
+            </aside>
+
+            <!-- Main Pipeline Content -->
+            <main class="pipeline-container">
+                <div class="pipeline-header">
+                    <h2 id="pipeline-title" class="pipeline-title">
+                        Pipeline
+                        <span class="pipeline-badge">18</span>
+                    </h2>
+                    <button class="new-deal-btn" aria-label="Create new deal">+ New Deal</button>
+                </div>
+
+                <!-- Search and Controls -->
+                <div class="search-controls">
+                    <div class="search-bar">
+                        <input type="search" placeholder="Search ..." aria-label="Search deals">
+                    </div>
+                    <div class="controls">
+                        <button class="control-btn" aria-label="Sort deals">Sort</button>
+                        <button class="control-btn" aria-label="Filter deals">Filter</button>
+                        <button class="control-btn" aria-label="Save as data view">Save as Data view</button>
+                    </div>
+                </div>
+
+                <!-- Pipeline Columns -->
+                <div class="pipeline-columns">
+                    <!-- Potential Column -->
+                    <article class="column" aria-labelledby="potential-column">
+                        <div class="column-header-blue">
+                            <div class="column-title-row">
+                                <h3 id="potential-column" class="column-title">
+                                    <span class="status-dot blue" aria-hidden="true"></span>
+                                    Potential
+                                    <span class="column-count">8</span>
+                                </h3>
+                                <div class="column-amount">$44,000</div>
+                            </div>
+                        </div>
+                        
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #333;" aria-hidden="true">L</div>
+                                <h4 class="deal-name">Linear</h4>
+                            </div>
+                            <div class="deal-amount">$10,000 annual</div>
+                            <p class="deal-note">Scheduled a meeting for next week</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">J</div>
+                                <span>Jamie Scott · <time datetime="PT5S">5 sec</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #666;" aria-hidden="true">D</div>
+                                <h4 class="deal-name">Deel</h4>
+                            </div>
+                            <div class="deal-amount">$500 monthly</div>
+                            <p class="deal-note">Sent an introductory email, awaiting reply</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">R</div>
+                                <span>Ray Karl · <time datetime="PT2M">2 min</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #0db7ed;" aria-hidden="true">D</div>
+                                <h4 class="deal-name">Docker</h4>
+                            </div>
+                            <div class="deal-amount">$350 monthly</div>
+                            <p class="deal-note">Followed up on our previous discussion, no concerns</p>
+                            <div class="deal-footer">
+                                <div class="avatar" style="background: #34c759;" aria-hidden="true">B</div>
+                                <span>Brian Kim · <time datetime="PT46M">46 min</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #ff5a00;" aria-hidden="true">G</div>
+                                <h4 class="deal-name">Gusto</h4>
+                            </div>
+                            <div class="deal-amount">$450 monthly</div>
+                            <p class="deal-note">Shared a relevant case study with them</p>
+                        </div>
+                    </article>
+
+                    <!-- Pending Column -->
+                    <article class="column" aria-labelledby="pending-column">
+                        <div class="column-header-blue">
+                            <div class="column-title-row">
+                                <h3 id="pending-column" class="column-title">
+                                    <span class="status-dot blue" aria-hidden="true"></span>
+                                    Pending
+                                    <span class="column-count">6</span>
+                                </h3>
+                                <div class="column-amount">$62,300</div>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #f05138;" aria-hidden="true">F</div>
+                                <h4 class="deal-name">Framer</h4>
+                            </div>
+                            <div class="deal-amount">$5,000 annual</div>
+                            <p class="deal-note">Scheduled a meeting for next week with Jorn</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">J</div>
+                                <span>Jamie Scott · <time datetime="PT1M">1 min</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #6c47ff;" aria-hidden="true">S</div>
+                                <h4 class="deal-name">Sendbird</h4>
+                            </div>
+                            <div class="deal-amount">$20,000 annual</div>
+                            <p class="deal-note">Did a product demo, set up follow up call with the team for next week</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">R</div>
+                                <span>Ray Karl · <time datetime="PT30M">30 min</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #00c4cc;" aria-hidden="true">S</div>
+                                <h4 class="deal-name">Scale AI</h4>
+                            </div>
+                            <div class="deal-amount">$2,300 annual</div>
+                            <p class="deal-note">Discussed the timeline for implementation. Looking good</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">J</div>
+                                <span>Jamie Scott · <time datetime="PT2H">2 hrs</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #ffa500;" aria-hidden="true">R</div>
+                                <h4 class="deal-name">Rippling</h4>
+                            </div>
+                            <div class="deal-amount">$12,000 annual</div>
+                            <p class="deal-note">Waiting for final approval from their team</p>
+                        </div>
+                    </article>
+
+                    <!-- Closed Won Column -->
+                    <article class="column" aria-labelledby="closed-won-column">
+                        <div class="column-header-green">
+                            <div class="column-title-row">
+                                <h3 id="closed-won-column" class="column-title">
+                                    <span class="status-dot green" aria-hidden="true"></span>
+                                    Closed Won
+                                    <span class="column-count">4</span>
+                                </h3>
+                                <div class="column-amount">$50,600</div>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #ff9500;" aria-hidden="true">L</div>
+                                <h4 class="deal-name">Loops</h4>
+                            </div>
+                            <div class="deal-amount">$800 monthly</div>
+                            <p class="deal-note">Scheduled a meeting for next week.</p>
+                            <div class="deal-footer">
+                                <div class="avatar" style="background: #34c759;" aria-hidden="true">B</div>
+                                <span>Brian Kim · <time datetime="P2D">2 d</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #635bff;" aria-hidden="true">S</div>
+                                <h4 class="deal-name">Stripe</h4>
+                            </div>
+                            <div class="deal-amount">$20,000</div>
+                            <p class="deal-note">Scheduled a meeting for next week.</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">J</div>
+                                <span>Jamie Scott · <time datetime="P3D">3 d</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #1a1a1a;" aria-hidden="true">F</div>
+                                <h4 class="deal-name">Footprint</h4>
+                            </div>
+                            <div class="deal-amount">$8,000 annual</div>
+                            <p class="deal-note">Eli is awesome! Closed immediately after 1st call</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">R</div>
+                                <span>Ray Karl · <time datetime="P4D">4 d</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #00d4aa;" aria-hidden="true">M</div>
+                                <h4 class="deal-name">Mintlify</h4>
+                            </div>
+                            <div class="deal-amount">$600 monthly</div>
+                            <p class="deal-note">Onboarding in two days - CSM required</p>
+                        </div>
+                    </article>
+
+                    <!-- Lost Column -->
+                    <article class="column" aria-labelledby="lost-column">
+                        <div class="column-header-red">
+                            <div class="column-title-row">
+                                <h3 id="lost-column" class="column-title">
+                                    <span class="status-dot red" aria-hidden="true"></span>
+                                    Lost
+                                    <span class="column-count">2</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #1a1a1a;" aria-hidden="true">S</div>
+                                <h4 class="deal-name">Superhuman</h4>
+                            </div>
+                            <div class="deal-amount">$1,000 monthly</div>
+                            <p class="deal-note">Lead disqualified due to mismatched requirements</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">R</div>
+                                <span>Ray Karl · <time datetime="P5D">5 d</time></span>
+                            </div>
+                        </div>
+
+                        <div class="deal-card">
+                            <div class="deal-header">
+                                <div class="company-icon" style="background: #ff3b30;" aria-hidden="true">R</div>
+                                <h4 class="deal-name">Rows.com</h4>
+                            </div>
+                            <div class="deal-amount">$5,000 annual</div>
+                            <p class="deal-note">Coordinated a meeting with a manager for higher-level discussion</p>
+                            <div class="deal-footer">
+                                <div class="avatar" aria-hidden="true">R</div>
+                                <span>Ray Karl · <time datetime="PT1M">1 min</time></span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- B2B Startups Section -->
+    <section class="B2B_startups" aria-labelledby="b2b-title">
+        <h2 id="b2b-title" class="B2B_title">Powering the next generation B2B startups</h2>
+        <div class="companies" role="list">
+            <img src="Assets/Images/icon1.png" class="B2B_img" alt="Partner company 1" loading="lazy">
+            <img src="Assets/Images/icon2.png" class="B2B_img" alt="Partner company 2" loading="lazy">
+            <img src="Assets/Images/icon3.png" class="B2B_img" alt="Partner company 3" loading="lazy">
+            <img src="Assets/Images/icon4.png" class="B2B_img" alt="Partner company 4" loading="lazy">
+            <img src="Assets/Images/icon5.png" class="B2B_img" alt="Partner company 5" loading="lazy">
+            <img src="Assets/Images/icon6.png" class="B2B_img" alt="Partner company 6" loading="lazy">
+            <img src="Assets/Images/icon7.png" class="B2B_img" alt="Partner company 7" loading="lazy">
+            <img src="Assets/Images/icon8.png" class="B2B_img" alt="Partner company 8" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Prospect Section -->
+    <section class="Prospect" aria-labelledby="prospect-title">
+        <h2 id="prospect-title" class="prospect_title">Prospect</h2>
+        <p class="prospect_subtitle">Work on all your potential leads from a single list. Leverage product usage and marketing data to qualify leads</p>
+    </section>
+
+    <!-- Details Section -->
+    <section class="details-section">
+        <div class="details-wrapper">
+            <!-- Companies Sidebar -->
+            <aside class="companies-sidebar" aria-label="Companies list">
+                <article class="company-item active">
+                    <div class="company-header">
+                        <div class="company-logo" style="background: linear-gradient(135deg, #f24e1e 0%, #ff7262 50%, #a259ff 100%);">
+                            <svg width="20" height="20" viewBox="0 0 16 16" fill="white" aria-hidden="true">
+                                <path d="M4 0h4v4H4z"/>
+                                <path d="M8 4h4v4H8z"/>
+                                <path d="M4 8h4v4H4z"/>
+                                <circle cx="10" cy="10" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="company-info">
+                            <h3 class="company-name">Figma</h3>
+                            <p class="company-contact">Dylan Field / CEO</p>
+                        </div>
+                        <time class="company-time" datetime="PT12M">12m ago</time>
+                    </div>
+                </article>
+
+                <article class="company-item">
+                    <div class="company-header">
+                        <div class="company-logo" style="background: #6c47ff;" aria-hidden="true">S</div>
+                        <div class="company-info">
+                            <h3 class="company-name">Sendbird</h3>
+                            <p class="company-contact">John S. Kim / CEO</p>
+                        </div>
+                        <time class="company-time" datetime="PT1H">1hr ago</time>
+                    </div>
+                </article>
+
+                <article class="company-item">
+                    <div class="company-header">
+                        <div class="company-logo" style="background: #0099ff;" aria-hidden="true">F</div>
+                        <div class="company-info">
+                            <h3 class="company-name">Framer</h3>
+                            <p class="company-contact">Oscar Carlsson / Growth</p>
+                        </div>
+                        <time class="company-time" datetime="PT2H">2hr ago</time>
+                    </div>
+                </article>
+            </aside>
+
+            <!-- Details Content -->
+            <main class="details-content">
+                <div class="content-header">
+                    <div class="content-logo" style="background: linear-gradient(135deg, #f24e1e 0%, #ff7262 50%, #a259ff 100%);">
+                        <svg width="24" height="24" viewBox="0 0 16 16" fill="white" aria-hidden="true">
+                            <path d="M4 0h4v4H4z"/>
+                            <path d="M8 4h4v4H8z"/>
+                            <path d="M4 8h4v4H4z"/>
+                            <circle cx="10" cy="10" r="2"/>
+                        </svg>
+                    </div>
+                    <h2 class="content-title">Figma</h2>
+                    <button class="content-menu" aria-label="More options">⋯</button>
+                </div>
+
+                <!-- Email Thread -->
+                <div class="email-thread">
+                    <article class="email-message">
+                        <div class="email-header">
+                            <span class="email-sender">Chris Chae &lt;chris@relatecrm.com&gt;</span>
+                            <time class="email-time" datetime="PT5M">5 min ago</time>
+                        </div>
+                        <p class="email-body">
+                            Hi Dylan! Chris here from Relate team. Thanks for signing up for Relate...
+                        </p>
+                    </article>
+
+                    <article class="email-message">
+                        <div class="email-header">
+                            <span class="email-sender">Dylan Field &lt;dylan@figma.com&gt;</span>
+                            <time class="email-time" datetime="PT1S">a few seconds ago</time>
+                        </div>
+                        <p class="email-body">
+                            Hey Chris. Thanks for the email. Just booked a slot for tomorrow.
+                        </p>
+                    </article>
+                </div>
+
+                <!-- Activity Section -->
+                <div class="activity-section">
+                    <h3 class="activity-title">Activity</h3>
+                    
+                    <div class="activity-item">
+                        <div class="activity-icon" style="background: #00d4aa;" aria-hidden="true">S</div>
+                        <p class="activity-text">Segment added the Opportunity to Prospecting</p>
+                        <time class="activity-time" datetime="PT5M">5 min ago</time>
+                    </div>
+
+                    <div class="comment-box">
+                        <label for="comment-input" class="sr-only">Leave a comment</label>
+                        <textarea id="comment-input" class="comment-input" placeholder="Leave a comment ..."></textarea>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Info Sidebar -->
+            <aside class="info-sidebar" aria-label="Company information">
+                <div class="info-card">
+                    <div class="info-logo" style="background: linear-gradient(135deg, #f24e1e 0%, #ff7262 50%, #a259ff 100%);">
+                        <svg width="32" height="32" viewBox="0 0 16 16" fill="white" aria-hidden="true">
+                            <path d="M4 0h4v4H4z"/>
+                            <path d="M8 4h4v4H8z"/>
+                            <path d="M4 8h4v4H4z"/>
+                            <circle cx="10" cy="10" r="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="info-company-name">Figma</h3>
+                    <a href="https://figma.com" class="info-website" target="_blank" rel="noopener noreferrer">figma.com</a>
+                    <p class="info-description">All-in-one design software</p>
+                </div>
+
+                <div class="info-section">
+                    <h4 class="info-section-title">People (1)</h4>
+                    
+                    <div class="person-item">
+                        <div class="person-details">
+                            <h5 class="person-name">Dylan Field</h5>
+                            <dl class="person-info">
+                                <div class="person-row">
+                                    <dt class="person-label">Title</dt>
+                                    <dd class="person-value">CEO & Co-Founder</dd>
+                                </div>
+                                <div class="person-row">
+                                    <dt class="person-label">Email</dt>
+                                    <dd class="person-value">dylan@figma.com</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <dl class="info-list">
+                        <div class="info-row">
+                            <dt class="info-label">Status</dt>
+                            <dd class="info-value">🕐 Prospecting</dd>
+                        </div>
+                        <div class="info-row">
+                            <dt class="info-label">Source</dt>
+                            <dd class="info-value"><a href="#segment" style="text-decoration: underline; color: blue;">Segment</a></dd>
+                        </div>
+                        <div class="info-row">
+                            <dt class="info-label">Assignee</dt>
+                            <dd class="info-value">Chris</dd>
+                        </div>
+                        <div class="info-row">
+                            <dt class="info-label">Priority</dt>
+                            <dd class="info-value">High</dd>
+                        </div>
+                        <div class="info-row">
+                            <dt class="info-label">Labels</dt>
+                            <dd class="info-value"><button class="add-label-btn" aria-label="Add label">+ Add Label</button></dd>
+                        </div>
+                    </dl>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Close CRM Section -->
+    <section class="close-section" aria-labelledby="close-title">
+        <div class="close-container">
+            <div class="close-line">
+                <img src="Assets/Images/close-line.png" class="close-line-img" alt="" aria-hidden="true" loading="lazy">
+            </div>
+            <h2 id="close-title" class="close-title">Close.</h2>
+            <p class="close-subtitle">Engage in sales opportunities as a team. Build and accelerate your sales pipeline.</p>
+
+            <div class="close-layout">
+                <!-- Sidebar -->
+                <aside class="close-sidebar" aria-label="Close navigation">
+                    <div>
+                        <img src="Assets/Images/logo.png" class="close-logo" alt="Relate Logo">
+                    </div>
+                    <nav class="close-nav">
+                        <div class="close-nav-item">
+                            <span class="close-nav-text">Inbox</span>
+                        </div>
+                        <div class="close-nav-item">
+                            <span class="close-nav-text">Organizations</span>
+                        </div>
+                        <div class="close-nav-item">
+                            <span class="close-nav-text">People</span>
+                        </div>
+                        <div class="close-nav-item active">
+                            <span class="close-nav-text">Pipelines</span>
+                        </div>
+                        <div class="close-nav-item">
+                            <span class="close-nav-text">Views</span>
+                        </div>
+                    </nav>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="close-content">
+                    <div class="close-columns">
+                        <!-- Potential Column -->
+                        <article class="close-column">
+                            <div class="close-column-header-blue">
+                                <div class="close-column-title">
+                                    <span class="close-status-dot blue" aria-hidden="true"></span>
+                                    <h3>Potential</h3>
+                                    <span class="close-column-count">5</span>
+                                </div>
+                                <div class="close-column-amount">$28,400</div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #000;" aria-hidden="true">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="white">
+                                            <path d="M2 2h5v5H2z"/>
+                                        </svg>
+                                    </div>
+                                    <h4 class="close-card-name">Linear</h4>
+                                </div>
+                                <div class="close-card-amount">$10,000 annual</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #6366f1;" aria-hidden="true">J</div>
+                                    <span class="close-card-user">Jamie Scott</span>
+                                    <time class="close-card-time" datetime="PT3M">3 min</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #1a1a1a;" aria-hidden="true">P</div>
+                                    <h4 class="close-card-name">Pulley</h4>
+                                </div>
+                                <div class="close-card-amount">$1,200 annual</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #8b5cf6;" aria-hidden="true">B</div>
+                                    <span class="close-card-user">Brian Kim</span>
+                                    <time class="close-card-time" datetime="P1D">1 d</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #0ea5e9;" aria-hidden="true">C</div>
+                                    <h4 class="close-card-name">Carta</h4>
+                                </div>
+                                <div class="close-card-amount">$700 monthly</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #6366f1;" aria-hidden="true">J</div>
+                                    <span class="close-card-user">Jamie Scott</span>
+                                    <time class="close-card-time" datetime="P1D">1 d</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #fbbf24;" aria-hidden="true">M</div>
+                                    <h4 class="close-card-name">Mailchimp</h4>
+                                </div>
+                                <div class="close-card-amount">$3,800 annual</div>
+                            </div>
+                        </article>
+
+                        <!-- Pending Column -->
+                        <article class="close-column">
+                            <div class="close-column-header-blue">
+                                <div class="close-column-title">
+                                    <span class="close-status-dot blue" aria-hidden="true"></span>
+                                    <h3>Pending</h3>
+                                    <span class="close-column-count">3</span>
+                                </div>
+                                <div class="close-column-amount">$31,000</div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #f05138;" aria-hidden="true">F</div>
+                                    <h4 class="close-card-name">Framer</h4>
+                                </div>
+                                <div class="close-card-amount">$5,000 annual</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #6366f1;" aria-hidden="true">J</div>
+                                    <span class="close-card-user">Jamie Scott</span>
+                                    <time class="close-card-time" datetime="PT1M">1 min</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #fbbf24;" aria-hidden="true">R</div>
+                                    <h4 class="close-card-name">Rippling</h4>
+                                </div>
+                                <div class="close-card-amount">$12,000 annual</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #8b5cf6;" aria-hidden="true">J</div>
+                                    <span class="close-card-user">Joe Han</span>
+                                    <time class="close-card-time" datetime="P3D">3 d</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #e11d48;" aria-hidden="true">S</div>
+                                    <h4 class="close-card-name">Slack</h4>
+                                </div>
+                                <div class="close-card-amount">$14,000 annual</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #8b5cf6;" aria-hidden="true">B</div>
+                                    <span class="close-card-user">Brian Kim</span>
+                                    <time class="close-card-time" datetime="P5D">5 d</time>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Closed Won Column -->
+                        <article class="close-column">
+                            <div class="close-column-header-green">
+                                <div class="close-column-title">
+                                    <span class="close-status-dot green" aria-hidden="true"></span>
+                                    <h3>Closed Won</h3>
+                                    <span class="close-column-count">3</span>
+                                </div>
+                                <div class="close-column-amount">$38,600</div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #f97316;" aria-hidden="true">L</div>
+                                    <h4 class="close-card-name">Loops</h4>
+                                </div>
+                                <div class="close-card-amount">$800 monthly</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #8b5cf6;" aria-hidden="true">B</div>
+                                    <span class="close-card-user">Brian Kim</span>
+                                    <time class="close-card-time" datetime="P2D">2 d</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #1a1a1a;" aria-hidden="true">F</div>
+                                    <h4 class="close-card-name">Footprint</h4>
+                                </div>
+                                <div class="close-card-amount">$8,000 annual</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #ef4444;" aria-hidden="true">R</div>
+                                    <span class="close-card-user">Ray Karl</span>
+                                    <time class="close-card-time" datetime="P4D">4 d</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #635bff;" aria-hidden="true">S</div>
+                                    <h4 class="close-card-name">Stripe</h4>
+                                </div>
+                                <div class="close-card-amount">$20,000</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #6366f1;" aria-hidden="true">J</div>
+                                    <span class="close-card-user">Jamie Scott</span>
+                                    <time class="close-card-time" datetime="P3D">3 d</time>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #00d4aa;" aria-hidden="true">M</div>
+                                    <h4 class="close-card-name">Mintlify</h4>
+                                </div>
+                                <div class="close-card-amount">$600 monthly</div>
+                            </div>
+                        </article>
+
+                        <!-- Lost Column -->
+                        <article class="close-column">
+                            <div class="close-column-header-red">
+                                <div class="close-column-title">
+                                    <span class="close-status-dot red" aria-hidden="true"></span>
+                                    <h3>Lost</h3>
+                                    <span class="close-column-count">2</span>
+                                </div>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #1a1a1a;" aria-hidden="true">S</div>
+                                    <h4 class="close-card-name">Superhu</h4>
+                                </div>
+                                <div class="close-card-amount">$1,000 monthly</div>
+                                <p class="close-card-text">Lead disqualified due to mismatched requirements</p>
+                            </div>
+
+                            <div class="close-card">
+                                <div class="close-card-header">
+                                    <div class="close-card-icon" style="background: #ef4444;" aria-hidden="true">R</div>
+                                    <h4 class="close-card-name">Rows.co</h4>
+                                </div>
+                                <div class="close-card-amount">$5,000 annual</div>
+                                <div class="close-card-footer">
+                                    <div class="close-avatar" style="background: #ef4444;" aria-hidden="true">R</div>
+                                    <span class="close-card-user">Ray Karl</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Retain and Recycle Section -->
+    <section class="retain-recycle-section">
+        <div class="retain-recycle-container">
+            <!-- Retain Block -->
+            <div class="retain-block">
+                <div class="retain-content">
+                    <h2 class="retain-title">Retain.</h2>
+                    <p class="retain-subtitle">Monitor customer health and manage<br>upcoming renewals effectively</p>
+                </div>
+
+                <div class="retain-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="th-checkbox"><input type="checkbox" aria-label="Select all"></th>
+                                <th scope="col" class="th-name">Name</th>
+                                <th scope="col" class="th-health">Health</th>
+                                <th scope="col" class="th-mrr">MRR</th>
+                                <th scope="col" class="th-status">Status</th>
+                                <th scope="col" class="th-renewal">Renewal</th>
+                                <th scope="col" class="th-csm">CSM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Slack"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #e11d48;" aria-hidden="true">S</div>
+                                    Slack
+                                </td>
+                                <td class="td-health">75 / 100</td>
+                                <td class="td-mrr">$1,166</td>
+                                <td class="td-status"><span class="status-badge green">Customer</span></td>
+                                <td class="td-renewal red">Today</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=1" alt="" class="csm-avatar" loading="lazy">
+                                    Brian
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Carta"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #0ea5e9;" aria-hidden="true">C</div>
+                                    Carta
+                                </td>
+                                <td class="td-health">81 / 100</td>
+                                <td class="td-mrr">$700</td>
+                                <td class="td-status"><span class="status-badge green">Customer</span></td>
+                                <td class="td-renewal orange">in 5 days</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=2" alt="" class="csm-avatar" loading="lazy">
+                                    Joe H
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Loops"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #f97316;" aria-hidden="true">L</div>
+                                    Loops
+                                </td>
+                                <td class="td-health">100 / 100</td>
+                                <td class="td-mrr">$800</td>
+                                <td class="td-status"><span class="status-badge green">Customer</span></td>
+                                <td class="td-renewal orange">in 10 days</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=3" alt="" class="csm-avatar" loading="lazy">
+                                    Brian
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Framer"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #0099ff;" aria-hidden="true">F</div>
+                                    Framer
+                                </td>
+                                <td class="td-health">95 / 100</td>
+                                <td class="td-mrr">$416</td>
+                                <td class="td-status"><span class="status-badge green">Customer</span></td>
+                                <td class="td-renewal orange">in 19 days</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=4" alt="" class="csm-avatar" loading="lazy">
+                                    Jamie
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Sendbird"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #8b5cf6;" aria-hidden="true">S</div>
+                                    Sendbird
+                                </td>
+                                <td class="td-health"><span class="health-warning">30 / 100</span></td>
+                                <td class="td-mrr">$2,100</td>
+                                <td class="td-status"><span class="status-badge green">Customer</span></td>
+                                <td class="td-renewal orange">in 30 days</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=5" alt="" class="csm-avatar" loading="lazy">
+                                    Ray K
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Rippling"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #fbbf24;" aria-hidden="true">R</div>
+                                    Rippling
+                                </td>
+                                <td class="td-health">89 / 100</td>
+                                <td class="td-mrr">$1,000</td>
+                                <td class="td-status"><span class="status-badge green">Customer</span></td>
+                                <td class="td-renewal">in 3 months</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=6" alt="" class="csm-avatar" loading="lazy">
+                                    Joe H
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Stripe"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #635bff;" aria-hidden="true">S</div>
+                                    Stripe
+                                </td>
+                                <td class="td-health">75 / 100</td>
+                                <td class="td-mrr">$1,665</td>
+                                <td class="td-status"><span class="status-badge green">Customer</span></td>
+                                <td class="td-renewal">in 3 months</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=7" alt="" class="csm-avatar" loading="lazy">
+                                    Jamie
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Recycle Block -->
+            <div class="recycle-block">
+                <div class="recycle-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="th-checkbox"><input type="checkbox" aria-label="Select all"></th>
+                                <th scope="col" class="th-name">Name</th>
+                                <th scope="col" class="th-reason">Churned Reason</th>
+                                <th scope="col" class="th-status">Status</th>
+                                <th scope="col" class="th-mrr">MRR</th>
+                                <th scope="col" class="th-csm">CSM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Maven"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #666;" aria-hidden="true">M</div>
+                                    Maven
+                                </td>
+                                <td class="td-reason">Feature - Import</td>
+                                <td class="td-status"><span class="status-badge red">Churned</span></td>
+                                <td class="td-mrr">$800</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=8" alt="" class="csm-avatar" loading="lazy">
+                                    Brian Kim
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Messagebird"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #0ea5e9;" aria-hidden="true">M</div>
+                                    Messagebird
+                                </td>
+                                <td class="td-reason">Feature - Automation</td>
+                                <td class="td-status"><span class="status-badge red">Churned</span></td>
+                                <td class="td-mrr">$2,100</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=9" alt="" class="csm-avatar" loading="lazy">
+                                    Joe Han
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Productboard"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #3b82f6;" aria-hidden="true">P</div>
+                                    Productboard
+                                </td>
+                                <td class="td-reason">Pricing</td>
+                                <td class="td-status"><span class="status-badge red">Churned</span></td>
+                                <td class="td-mrr">$480</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=10" alt="" class="csm-avatar" loading="lazy">
+                                    Brian Kim
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Twillio"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #ef4444;" aria-hidden="true">T</div>
+                                    Twillio
+                                </td>
+                                <td class="td-reason">Integration - Slack</td>
+                                <td class="td-status"><span class="status-badge red">Churned</span></td>
+                                <td class="td-mrr">$1,250</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=11" alt="" class="csm-avatar" loading="lazy">
+                                    Jamie Scott
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Gong.io"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #1a1a1a;" aria-hidden="true">G</div>
+                                    Gong.io
+                                </td>
+                                <td class="td-reason">Pricing</td>
+                                <td class="td-status"><span class="status-badge red">Churned</span></td>
+                                <td class="td-mrr">$416</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=12" alt="" class="csm-avatar" loading="lazy">
+                                    Ray Karl
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select Mixpanel"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #8b5cf6;" aria-hidden="true">M</div>
+                                    Mixpanel
+                                </td>
+                                <td class="td-reason">Integration - Figma</td>
+                                <td class="td-status"><span class="status-badge red">Churned</span></td>
+                                <td class="td-mrr">$640</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=13" alt="" class="csm-avatar" loading="lazy">
+                                    Joe Han
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label="Select IBM"></td>
+                                <td class="td-name">
+                                    <div class="company-icon" style="background: #0066cc;" aria-hidden="true">I</div>
+                                    IBM
+                                </td>
+                                <td class="td-reason">Pricing</td>
+                                <td class="td-status"><span class="status-badge red">Churned</span></td>
+                                <td class="td-mrr">$2,800</td>
+                                <td class="td-csm">
+                                    <img src="https://i.pravatar.cc/32?img=14" alt="" class="csm-avatar" loading="lazy">
+                                    Jamie Scott
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="recycle-content">
+                    <h2 class="recycle-title">Recycle.</h2>
+                    <p class="recycle-subtitle">Reach out to churned/lost customers<br>periodically</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" aria-labelledby="features-title">
+        <div class="features-container">
+            <h2 id="features-title" class="features-title">Features</h2>
+            <p class="features-subtitle">Relate is a better way to do sales and customer success for B2B SaaS startups</p>
+        </div>
+
+        <div class="ui-saas-container">    
+            <!-- Simple & Clean UI -->
+            <div class="ui-container">
+                <div class="ui-header">
+                    <h3 class="ui-title">Simple & Clean UI</h3>
+                    <p class="ui-subtitle">Start with simple and clean CRM and then add more power over time.</p>
+                </div>
+
+                <div class="ui-layout">
+                    <aside class="ui-sidebar" aria-label="UI navigation">
+                        <div>
+                            <img src="Assets/Images/logo.png" class="ui-logo" alt="Relate Logo">
+                        </div>
+                        <nav class="ui-nav">
+                            <div class="ui-nav-item">
+                                <span class="ui-nav-text">Inbox</span>
+                            </div>
+                            <div class="ui-nav-item">
+                                <span class="ui-nav-text">Organizations</span>
+                            </div>
+                            <div class="ui-nav-item">
+                                <span class="ui-nav-text">People</span>
+                            </div>
+                            <div class="ui-nav-item-active">
+                                <span class="ui-nav-text">Pipelines</span>
+                            </div>
+                            <div class="ui-nav-item">
+                                <span class="ui-nav-text">Views</span>
+                            </div>
+                        </nav>
+                    </aside>
+
+                    <div class="ui-content">
+                        <div class="ui-columns">
+                            <div class="ui-column">
+                                <div class="ui-column-header-blue">
+                                    <div class="ui-column-title">
+                                        <span class="ui-status-dot blue" aria-hidden="true"></span>
+                                        <span>Potential</span>
+                                        <span class="ui-column-count">5</span>
+                                    </div>
+                                    <div class="ui-column-amount">$28,400</div>
+                                </div>
+
+                                <div class="ui-card">
+                                    <div class="ui-card-header">
+                                        <div class="ui-card-icon" aria-hidden="true">L</div>
+                                        <span class="ui-card-name">Linear</span>
+                                    </div>
+                                    <div class="ui-card-amount">$10,000 annual</div>
+                                    <div class="ui-card-footer">
+                                        <div class="ui-avatar" aria-hidden="true">J</div>
+                                        <span class="ui-card-user">Jamie Scott<span class="ui-card-symbol">⇥</span></span>
+                                        <time class="ui-card-time" datetime="PT3M">3 min</time>
+                                    </div>
+                                </div>
+                                <div class="ui-card-company">
+                                    <div class="ui-company-avatar" aria-hidden="true">M</div>
+                                    <span class="ui-company">Mailchimp</span>
+                                </div>
+                            </div>
+
+                            <div class="won-column">
+                                <div class="won-column-header-green">
+                                    <div class="won-column-title">
+                                        <span class="won-status-dot green" aria-hidden="true"></span>
+                                        <span>Won</span>
+                                        <span class="won-column-count">3</span>
+                                    </div>
+                                </div>
+
+                                <div class="won-card">
+                                    <div class="won-card-header">
+                                        <div class="won-card-icon" aria-hidden="true">L</div>
+                                        <span class="won-card-name">Loops</span>
+                                    </div>
+                                    <div class="won-card-amount">$800 monthly</div>
+                                    <div class="won-card-footer">
+                                        <div class="won-avatar" aria-hidden="true">B</div>
+                                        <span class="won-card-user">Brian Kim</span> 
+                                    </div>
+                                </div>
+                                <div class="won-card-company">
+                                    <div class="won-company-avatar" aria-hidden="true">F</div>
+                                    <span class="won-company">Footprint</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>  
+            </div>
+
+            <!-- Built for SaaS -->
+            <div class="built-for-saas">
+                <div class="logo-row-1">
+                    <div class="logo-item">
+                        <img src="Assets/Images/saas-logo (1).png" alt="Slack integration" class="saas-img-1" loading="lazy"/>
+                    </div>
+                    <div class="logo-item">
+                        <img src="Assets/Images/saas-logo (3).png" alt="Intercom integration" class="saas-img" loading="lazy"/>
+                    </div>
+                    <div class="logo-item">
+                        <img src="Assets/Images/saas-logo (2).png" alt="Segment integration" class="saas-img-3" loading="lazy"/>
+                    </div>
+                </div>
+                <div class="logo-row-2">
+                    <div class="logo-item">
+                        <img src="Assets/Images/saas-logo (4).png" alt="Amplitude integration" class="saas-img" loading="lazy"/>
+                    </div>
+                    <div class="logo-item">
+                        <img src="Assets/Images/saas-logo (5).png" alt="Stripe integration" class="saas-img-2" loading="lazy"/>
+                    </div>
+                    <div class="logo-item">
+                        <img src="Assets/Images/saas-logo (6).png" alt="Mixpanel integration" class="saas-img" loading="lazy"/>
+                    </div>
+                </div>
+                <div class="saas-info">
+                    <h3>Built for SaaS</h3>
+                    <p>Connect with the rest of your GTM stack.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sales CRM Section -->
+        <div class="sales-crm-section">
+            <div class="card">
+                <div class="card-top">
+                    <div>
+                        <p class="label">Total Revenue</p>
+                        <div class="revenue">
+                            <span class="price">$175,000</span>
+                            <span class="badge">+4%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart" role="img" aria-label="Revenue growth chart">
+                    <div class="target-box">
+                        <p><span class="text">Target win rate</span> <span class="arrow">––––––––––––––––––</span> <strong>29%</strong></p>
+                        <p><span class="text">Target revenue</span> <span class="arrow">––––––</span> <strong>$600,000</strong></p>
+                    </div>
+                    <svg viewBox="0 0 400 150" aria-hidden="true">
+                        <defs>
+                            <pattern id="grid" width="40" height="20" patternUnits="userSpaceOnUse">
+                                <path d="M 40 0 L 0 0 0 20" fill="none" stroke="#f0f0f0" stroke-width="0.5"/>
+                            </pattern>
+                        </defs>
+                        <rect width="400" height="160" fill="url(#grid)"/>
+                        
+                        <g stroke="#e5e7eb" stroke-width="1" stroke-dasharray="4 4">
+                            <line x1="0%" y1="20"  x2="100%" y2="20" />
+                            <line x1="0%" y1="40"  x2="100%" y2="40" />
+                            <line x1="0%" y1="60"  x2="100%" y2="60" />
+                            <line x1="0%" y1="80"  x2="100%" y2="80" />
+                            <line x1="0%" y1="100" x2="100%" y2="100" />
+                            <line x1="0%" y1="120" x2="100%" y2="120" />
+                            <line x1="0%" y1="140" x2="100%" y2="140" />
+                        </g>
+                        
+                        <line x1="0%" y1="145" x2="90%" y2="55" stroke="#d1d5db" stroke-width="2" stroke-dasharray="5 5"/>
+                        <line x1="260" y1="0" x2="260" y2="200" stroke="#93c5fd" stroke-width="1"/>
+                        <line x1="260" y1="40" x2="340" y2="58" stroke="#bfdbfe" stroke-width="2" stroke-dasharray="4 4" opacity="1"/>
+                        
+                        <polyline points="20,140 80,95 140,85 200,55 260,40" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="260" cy="40" r="5" fill="#3b82f6"/>
+                        <rect x="240" y="4" width="40" height="20" rx="4" fill="white" stroke="#93c5fd" stroke-width="1.5"/>
+                        <text x="260" y="18" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3b82f6" text-anchor="middle">$43k</text>
+                        <circle cx="340" cy="58" r="4" fill="#bfdbfe" opacity="1"/>
+                    </svg>
+                </div>
+                
+                <div class="card-bottom">
+                    <h3>Progress Sales with Cycles</h3>
+                    <p>
+                        Keep your sales team engaged and build forward
+                        momentum with Relate's Cycles feature.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Full CRM -->
+            <div class="crm-section">
+                <div class="crm-header">
+                    <h3>A Full CRM</h3>
+                    <p>
+                        More features don't mean they're better. Relate makes sales easy by
+                        having fewer, but powerful and essential features.
+                    </p>
+                </div>
+
+                <div class="crm-card">
+                    <aside class="crm-sidebar" aria-label="CRM navigation">
+                        <img class="logo" src="Assets/Images/logo.png" alt="Relate Logo"/>
+                        <nav>
+                            <a href="#inbox">Inbox</a>
+                            <a href="#organizations" class="active">Organizations</a>
+                            <a href="#people">People</a>
+                            <a href="#views">Views</a>
+                            <a href="#pipeline">Pipeline</a>
+                        </nav>
+                    </aside>
+
+                    <div class="crm-main">
+                        <div class="crm-topbar">
+                            <span class="title">Organizations <strong>36</strong></span>
+                            <button class="btn" aria-label="Create new deal">+ Deal</button>
+                        </div>
+
+                        <div class="crm-table">
+                            <div class="crm-row crm-head">
+                                <span></span>
+                                <span>Name</span>
+                                <span>Website</span>
+                                <span>YC</span>
+                                <span>Lead Status</span>
+                            </div>
+
+                            <div class="crm-row">
+                                <span><input type="checkbox" aria-label="Select Docker"/></span>
+                                <span>Docker</span>
+                                <span>docker.com</span>
+                                <span class="tag">S10</span>
+                                <span class="status potential">Potential</span>
+                            </div>
+
+                            <div class="crm-row">
+                                <span><input type="checkbox" aria-label="Select Linear"/></span>
+                                <span>Linear</span>
+                                <span>linear.app</span>
+                                <span class="tag">—</span>
+                                <span class="status closing">Closing</span>
+                            </div>
+
+                            <div class="crm-row">
+                                <span><input type="checkbox" aria-label="Select Sendbird"/></span>
+                                <span>Sendbird</span>
+                                <span>sendbird.com</span>
+                                <span class="tag">W16</span>
+                                <span class="status customer">Customer</span>
+                            </div>
+
+                            <div class="crm-row">
+                                <span><input type="checkbox" aria-label="Select Amplitude"/></span>
+                                <span>Amplitude</span>
+                                <span>amplitude.com</span>
+                                <span class="tag">W12</span>
+                                <span class="status customer">Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="customer-reviews-section" aria-labelledby="reviews-title">
+        <div class="customer-header">
+            <h2 id="reviews-title" class="customer-title">Customer💙</h2>
+            <p class="customer-subtitle">Relate is a better way to do sales and customer success for B2B SaaS startups</p>
+        </div>
+
+        <div class="reviews">
+            <article class="review-card">
+                <div class="review-info">
+                    <img src="Assets/Images/icon4.png" alt="PUBLY logo" class="reviewer-logo" loading="lazy">
+                    <blockquote class="review-text">"Relate is a great CRM tool for startups because it is simple and intuitive."</blockquote>
+                    <div class="reviewer-details">
+                        <p class="reviewer-name">SK Lee</p>
+                        <p class="reviewer-position">Chief Product Officer, PUBLY</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-info">
+                    <img src="Assets/Images/logo reviewer.png" alt="Manatee logo" class="reviewer-logo" loading="lazy">
+                    <blockquote class="review-text">"We've been scaling up outbound sales and CRM usage a lot, and Relate has scaled perfectly with us. It has literally saved us hours."</blockquote>
+                    <div class="reviewer-details">
+                        <p class="reviewer-name">Bryan Houlton</p>
+                        <p class="reviewer-position">CEO & Co-Founder, Manatee (YC S22)</p>
+                    </div>
+                </div>
+            </article>  
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section" role="contentinfo">
+        <div class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <div class="footer-logo-section">
+                        <div class="logo">
+                            <img src="Assets/Images/logo1.png" alt="Relate Logo" class="footer-logo">
+                        </div>
+                        <p class="tagline">The Collaborative Sales CRM</p>
+                    </div>
+
+                    <div class="socials">
+                        <a href="#twitter" aria-label="Follow us on Twitter">
+                            <img src="Assets/Images/twitter.png" alt="" class="social-icon">
+                        </a>
+                        <a href="#linkedin" aria-label="Connect with us on LinkedIn">
+                            <img src="Assets/Images/LinkedIn.png" alt="" class="social-icon">
+                        </a>
+                    </div>
+
+                    <form class="signup" aria-label="Newsletter signup">
+                        <label for="email-signup" class="sr-only">Email address</label>
+                        <input type="email" id="email-signup" placeholder="example@email.com" required>
+                        <button type="submit" class="signup-btn">Sign Up</button>
+                    </form>
+                </div>
+
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <div class="column">
+                        <h4>Product</h4>
+                        <a href="#product">Product</a>
+                        <a href="#changelog">Changelog</a>
+                        <a href="#guide">Guide</a>
+                    </div>
+
+                    <div class="column">
+                        <h4>Learn</h4>
+                        <a href="#blog">Blog</a>
+                    </div>
+
+                    <div class="column">
+                        <h4>Company</h4>
+                        <a href="#terms">Terms of Service</a>
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#korean" hreflang="ko">한국어</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2023 Pixelic, Inc. dba Relate.</span>
+                <span class="yc">
+                    <img src="Assets/Images/logo2.png" class="yc-logo" alt="Y Combinator"> 
+                    Backed by Y Combinator
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
