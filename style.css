@@ -3466,7 +3466,7 @@ input[type="checkbox"] {
 
 @media (max-width: 480px) {
     .hero_title1 {
-        font-size: 28px;
+        font-size: 22px;
         filter: none;
     }
     .hero_title2 {
@@ -3483,9 +3483,10 @@ input[type="checkbox"] {
         margin-top: 60px;
     }
     .hero_btn {
-        width: 160px;
-        height: 45px;
+        width: 150px;
+        height: 55px;
         font-size: 16px;
+        margin-bottom: 20px;
     }
     .B2B_title {
         font-size: 18px;
@@ -3733,6 +3734,4 @@ input[type="checkbox"] {
     .close-column {
         min-width: 200px;
     }
-
 }
-
